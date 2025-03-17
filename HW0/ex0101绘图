@@ -1,0 +1,8 @@
+import turtle as t
+length = 1
+t.speed(0)
+for i in range(400):
+    t.fd(length)
+    length += 1
+    t.right(61)
+t.done()
